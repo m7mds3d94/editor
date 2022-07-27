@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/text-edit.css.css">
+    <link rel="icon" href="t.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>text editor</title>
+</head>
+<body>
+
+<div class="container">
+<div class="row text-center">
+
+<div class="col-12 ml-auto mr-auto mt-5">
+
+<h3>Text Editor</h3>
+<div class="row">
+
+<div class="col-12 ml-auto mr-auto text-center">
+
+<!-- start all button click -->
+<div class="row">
+
+<button type="button" value="italic" id="italic-font" class="tg-btn col btn btn-lg btn-light"  toggle="1"><i>I</i></button>
+<button type="button" id="under-line-font" value="underline" class="tg-btn btn-lg btn btn-light btn-lg col"  toggle="1" ><u>u</u></button>
+<button class="tg-btn btn btn-light btn-lg col">
+<input type="color" id="color-font" class="color" > 
+</button>
+<button type="button" id="bold-font" value="bold" class="tg-btn btn btn-lg btn-light col"  toggle="1"><b>B</b></button>
+<button type="button" id="left-text" value="left" class="tg-btn btn btn-lg btn-light col"  toggle="1"><i class="las la-align-left"></i></button>
+<button type="button" id="center-text" value="center" class="tg-btn btn-lg btn btn-light col"  toggle="1"><i class="las la-bars"></i></button>
+<button type="button" id="right-text" value="right" class="tg-btn  btn-lg btn-lg btn btn-light col"  toggle="1"><i class="las la-align-right"></i></button>
+</div>
+<!-- end all button click -->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- start text user -->
+<div class="container-fluid editArea" contenteditable="true">
+<textarea name="area-editor" id="editor" cols="10" rows="15" class="form-control col-12 mt-5 textEDITOR" placeholder="Type Here...." onselect="lolo()"></textarea>
+
+</div>
+<!-- end text user -->
+
+  <script src="javascript/jquery-3.6.0.min.js"></script>
+    <script src="javascript/text-edit.js.js"></script>
+</body>
+</html>

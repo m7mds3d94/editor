@@ -1,0 +1,58 @@
+
+body {
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    background-color: #353D40 !important;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #D6CFC4;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 7px 7px 7px 7px;
+    height: 40px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E0DCDD;
+}
+
+.color {
+    border: none;
+    background-color: #f8f9fa;
+}
+h3 {
+    color: #f8f9fa;
+}
+
+.italic {
+    font-style: italic;
+}
+.under-line {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold !important;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+textarea {
+    border-radius: 10px;
+}
+
+
